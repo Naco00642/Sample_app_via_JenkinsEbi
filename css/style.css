@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    color:pink;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color:pink;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+.banner {
+    background-image: url('../Images3.jpg'); /* Replace with your own image */
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h2 {
+    font-size: 48px;
+    color: darkslateblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 0.1px white; 
+    padding: 4px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 30px;
+    color: pink;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1)
+}
+
+.cta-btn {
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #ff5733;
+}
+
+.events, .booking-form, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.events h2, .booking-form h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.event-item, .booking-form, .contact {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+} 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+ form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 15px;
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+input[type="file"] {
+    padding: 5px;
+    font-size: 16px;
+} 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
